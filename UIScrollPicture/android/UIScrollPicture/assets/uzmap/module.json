@@ -1,0 +1,12 @@
+{
+	modules:[
+		{
+			name:'UIScrollPictureApp',
+			class:'com.uzmap.pkg.uzmodules.uzUIScrollPicture.MyApplication'
+		},
+		{
+		    name:'UIScrollPicture',
+		    class:'com.uzmap.pkg.uzmodules.uzUIScrollPicture.UzUIScrollPicture'
+		}
+	]
+}

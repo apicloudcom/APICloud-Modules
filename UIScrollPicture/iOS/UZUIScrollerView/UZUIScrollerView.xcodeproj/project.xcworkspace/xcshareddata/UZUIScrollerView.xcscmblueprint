@@ -1,0 +1,25 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "bb1f6edc-2750-b443-bb15-590855bc9021",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+    "bb1f6edc-2750-b443-bb15-590855bc9021" : {
+
+    }
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "bb1f6edc-2750-b443-bb15-590855bc9021" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "4483FB1C-004B-4414-9925-AE17F06CE164",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "bb1f6edc-2750-b443-bb15-590855bc9021" : "uzModules_IOS"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "UZUIScrollerView",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "trunk\/GuJunTao\/ModuleProject\/UZUIScrollerView\/UZUIScrollerView.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/192.168.13.120:4443\/svn\/uzModules_IOS",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "bb1f6edc-2750-b443-bb15-590855bc9021"
+    }
+  ]
+}

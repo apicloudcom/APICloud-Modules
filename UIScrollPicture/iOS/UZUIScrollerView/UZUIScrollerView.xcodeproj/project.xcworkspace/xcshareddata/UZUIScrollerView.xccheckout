@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>4483FB1C-004B-4414-9925-AE17F06CE164</string>
+	<key>IDESourceControlProjectName</key>
+	<string>UZUIScrollerView</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>bb1f6edc-2750-b443-bb15-590855bc9021</key>
+		<string>https://192.168.13.120:4443/svn/uzModules_IOS</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>trunk/GuJunTao/ModuleProject/UZUIScrollerView/UZUIScrollerView.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>bb1f6edc-2750-b443-bb15-590855bc9021</key>
+		<string>../../../../../..</string>
+	</dict>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>bb1f6edc-2750-b443-bb15-590855bc9021</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.subversion</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>bb1f6edc-2750-b443-bb15-590855bc9021</string>
+			<key>IDESourceControlWCCName</key>
+			<string>uzModules_IOS</string>
+		</dict>
+	</array>
+</dict>
+</plist>

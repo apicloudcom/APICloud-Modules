@@ -1,0 +1,147 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport"
+	content="maximum-scale=1.0, minimum-scale=1.0, user-scalable=0, initial-scale=1.0, width=device-width" />
+<meta name="format-detection"
+	content="telephone=no, email=no, date=no, address=no">
+<title>WinA</title>
+<link rel="stylesheet" type="text/css" href="css/api.css" />
+<link rel="stylesheet" type="text/css" href="css/box.css" />
+<script type="text/javascript" src="script/public.js"></script>
+<style>
+p {
+	color: #999;
+	padding: 5px;
+}
+</style>
+<script type="text/javascript">
+	function openView() {
+		var obj = api.require('UIScrollPicture');
+		var paths = ['widget://res/photo_1.png'];
+		var captions = [ 'title1', 'title2'];
+		var yy = parseInt(api.frameHeight) + 1;
+		obj.open({
+			data : {
+				paths : paths,
+				captions : captions
+			},
+			styles : {
+				caption : {
+					height : 35.0,
+					color : '#E0FFFF',
+					size : 13.0,
+					bgColor : '#696969',
+					position : 'bottom',
+					alignment : 'right'
+				},
+				indicator : {
+					dot : {
+						w : 20,
+						h : 10,
+						r : 5,
+						margin : 20
+					},
+					color : '#FFFFFF',
+					activeColor : '#DA70D6'
+				}
+			},
+			rect : {
+				x:50,
+				y : 150,
+				w : api.winWidth - 200,
+				h : 100
+			},
+			placeholderImg : 'widget://res/slide_holder.jpg',
+			//contentMode: 'scaleAspectFit',scaleToFill
+			contentMode : 'scaleAspectFit',
+			interval : 3,
+			loop : false,
+			auto : true,
+			touchWait:true,
+			cornerRadius: 0,
+			fixedOn : api.frameName,
+			fixed : false,
+			scrollerCorner:60
+		}, function(ret, err) {
+			if (ret.status) {
+				alert(ret.index);
+			}
+		});
+	}
+
+	function setCurrentIndex() {
+		var obj = api.require('UIScrollPicture');
+		obj.setCurrentIndex({
+			index : 1
+		});
+	}
+
+	function reloadData() {
+		var paths = [
+				'widget://res/scrollPicture_02.jpg',
+				'widget://res/scrollPicture_01.jpg',
+				'http://f.hiphotos.baidu.com/image/pic/item/4e4a20a4462309f7bdca9423710e0cf3d7cad65d.jpg',
+				'widget://res/scrollPicture_03.jpg' ];
+		var captions = [ 'title1title1', 'title2title2', 'title3title2',
+				'title4title2', 'title5title2', 'title5title6' ];
+
+		var obj = api.require('UIScrollPicture');
+		obj.reloadData({
+			data : {
+				paths : paths,
+				captions : captions
+			}
+		});
+	}
+
+	function reloadDataOne() {
+		var obj = api.require('UIScrollPicture');
+		obj.reloadData({});
+	}
+
+	function addListener() {
+		var obj = api.require('UIScrollPicture');
+		obj.addEventListener(function(ret, err) {
+			if (ret.status) {
+				alert(ret.index);
+			}
+		});
+	}
+
+	function showView() {
+		var obj = api.require('UIScrollPicture');
+		obj.show();
+	}
+
+	function hideView() {
+		var obj = api.require('UIScrollPicture');
+		obj.hide();
+	}
+
+	function closeView() {
+		var obj = api.require('UIScrollPicture');
+		obj.close();
+	}
+</script>
+</head>
+<body>
+	<div id="wrap">
+		<div id="main">
+			<input class="clickbtn" type="button" onclick="openView()"
+				value="openView" /> <input class="clickbtn" type="button"
+				onclick="setCurrentIndex()" value="setCurrentIndex" /> <input
+				class="clickbtn" type="button" onclick="reloadData()"
+				value="reloadData" /> <input class="clickbtn" type="button"
+				onclick="reloadDataOne()" value="reloadDataOne" /> <input
+				class="clickbtn" type="button" onclick="addListener()"
+				value="addListener" /> <input class="clickbtn" type="button"
+				onclick="showView()" value="showView" /> <input class="clickbtn"
+				type="button" onclick="hideView()" value="hideView" /> <input
+				class="clickbtn" type="button" onclick="closeView()"
+				value="closeView" />
+		</div>
+	</div>
+</body>
+</html>

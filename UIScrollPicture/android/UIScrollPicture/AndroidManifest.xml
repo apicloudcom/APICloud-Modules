@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.apicloud.uiscrollpicture"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="16"
+        android:targetSdkVersion="20" />
+    
+    <!-- 访问网络  -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <!-- 写外部存储  -->
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <!-- 获取运营商信息，用于支持提供运营商信息相关的接口-->
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <!-- 访问wifi网络信息,wifi信息可用于进行网络定位-->
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <!-- 控制振动器-->
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <!-- 读取手机当前的状态-->
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+	<uses-permission android:name="android.permission.FLASHLIGHT" />
+
+    <application android:name="com.uzmap.pkg.uzapp.UZApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/uz_icon"
+        android:label="@string/app_name"
+		android:theme="@style/AppTheme"
+        android:hardwareAccelerated="true">
+        <meta-data android:name="uz_version" android:value="1.2.0" />
+        <activity
+            android:name="com.uzmap.pkg.EntranceActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme"
+        	android:screenOrientation="portrait"
+        	android:configChanges="orientation|locale" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
