@@ -15,8 +15,8 @@
 - [UIVividLine](https://github.com/apicloudcom/APICloud-Modules/tree/master/UIVividLine)  (折线图模块源码)
 - [personalCenter](https://github.com/apicloudcom/APICloud-Modules/tree/master/personalCenter)  (个人中心模块源码)
 - [UIAlbumBrowser](https://github.com/apicloudcom/APICloud-Modules/tree/master/UIAlbumBrowser)  (个相册访问器)
-- [UIChatTools](https://github.com/apicloudcom/APICloud-Modules/UIChatTools)(聊天输入框)
-- [UIScrollPicture](https://github.com/apicloudcom/APICloud-Modules/UIScrollPicture)(图片轮播器)
+- [UIChatTools](https://github.com/apicloudcom/APICloud-Modules/tree/master/UIChatTools)(聊天输入框)
+- [UIScrollPicture](https://github.com/apicloudcom/APICloud-Modules/tree/master/UIScrollPicture)(图片轮播器) 
 
 ## 导航菜单类
 - [NVTabBar](https://github.com/apicloudcom/APICloud-Modules/tree/master/NVTabBar)  (底部导航条模块源码)
