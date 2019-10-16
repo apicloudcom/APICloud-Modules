@@ -28,7 +28,7 @@
 - [signature](https://github.com/apicloudcom/APICloud-Modules/tree/master/signature)  (加密签名模块)
 
 ## 设备访问类
-- [ble](https://github.com/apicloudcom/pedometer) (蓝牙4.0模块源码)
+- [ble](https://github.com/apicloudcom/ble) (蓝牙4.0模块源码)
 - [pedometer](https://github.com/apicloudcom/pedometer) (手机计步器模块)
 
 ## 开放服务类
